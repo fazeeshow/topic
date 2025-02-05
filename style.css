@@ -158,3 +158,196 @@ margin-left: 90px;
   border-radius: 30px;
   font-size: 15px;
 }
+
+
+
+
+/* for mobile */
+@media (max-width: 768px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* width: 100%; */
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .main-container{
+    background: rgb(19,84,122);
+  background: linear-gradient(32deg, rgba(19,84,122,1) 0%, rgba(128,208,199,1) 68%, rgba(128,208,199,1) 89%);
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    margin-top: 0px;
+  
+  }
+  .main-container p{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .main-container input  {
+    width: 100px;
+    border-style: none;
+    border-radius: 50px;
+    height: 70px;
+    font-size: 15px;
+    font-weight: 300;
+    
+  }
+  
+  .search-bar{
+  display: flex;
+  background-color: white;
+  width: 350px;
+  height: 68px;
+  border-radius: 40px;
+  align-items: center;
+  padding-right: 20px;
+  overflow: hidden;
+  font-size: 1px;
+  }
+  .search-bar img{
+   height: 30px;
+   padding-left: 5px;
+  
+  
+  }
+  .search-bar input{
+    height: 62px;
+    width: auto;
+    border-radius: 40px;
+    padding-left: 15px;
+    flex: 1;
+    
+    /* overflow: hidden; */
+    
+  }
+  .search-bar button{
+    height: 55px;
+    border-radius: 40px;
+    width: 110px;
+    border-style: none;
+    background-color: 
+    #9ee9e0;
+    font-size: 20px;
+    color: rgb(66, 62, 62);
+  }
+  
+  
+  
+  .search-bar button:hover {
+    background-color: #434cc5;
+    color: white;
+  }
+  .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+   position: fixed;
+   width: 100%;
+   
+    background: linear-gradient(32deg, rgb(62, 165, 179) 0%, rgba(128,208,199,1) 68%, rgba(128,208,199,1) 89%);
+  }
+  .brand-name h1{
+    color: white;
+    
+  }
+  .menu{
+    margin-left: -40px;
+  }
+  .menu a{
+    text-decoration: none;
+    margin: 0 1px;
+    color: white;
+    font-size: 9px;
+    padding: 0;
+    
+    
+  }
+  .right-corner img{
+    background-color: white;
+    border-radius: 50%;
+   width: 30px;
+   padding: 8px;
+  position: relative;
+  top: 15px;
+  }
+  
+  
+  .second-container{
+    background-color: 
+    #80d0c7;
+    height: 100vh;
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+  }
+  .right-second-container{
+    margin-top: -150px;
+    height: 250px;
+    width: 155px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0 15px;
+   font-size: 10px;
+  
+  }
+  .right-second-container img{
+    width: 160px;
+    height: auto;
+    
+  }
+  .right-second-container h2{
+    margin-top: 24px;
+  }
+  .left-second-container p{
+    margin-top: -5px;
+    line-height: 1.4;
+  }
+  .left-second-container h2{
+    margin-top: -20px;
+  }
+  .left-second-container{
+    margin-top: -150px;
+    height: 170px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    background-color:
+  #80d0c7;
+  font-size: 10px;
+  background: linear-gradient(32deg, rgb(62, 165, 179) 0%, rgba(128,208,199,1) 68%, rgb(97, 211, 198) 89%);
+  color: white;
+  margin-left: 9px;
+  }
+  .left-second-container button{
+    background-color: rgb(25, 221, 179);
+    height:40px ;
+    width: 100px;
+    border-style: none;
+    border-radius: 30px;
+    font-size: 10px;
+   margin-top: 20px;
+  }
+
+
+
+}
